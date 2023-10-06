@@ -71,7 +71,7 @@ Fill out the form below to calculate your daily calorie requirement.
             const activity = document.getElementById("activity").value;
 
             // Send a POST request to the Python backend using relative path
-            fetch("/_posts/CalCalc/2023-10-3-CalCalcScript.py", {
+            fetch("/_posts/CalCalc/2023-10-3-CalCalc-backend.py", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
