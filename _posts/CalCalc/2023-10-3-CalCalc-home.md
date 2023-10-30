@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Calorie Calculator
 description: Passion Project Calorie Calculator!
-type: tangibles
+type: hacks
 courses: { compsci: {week: 7} }
 permalink: /CalCalc/home
 ---
