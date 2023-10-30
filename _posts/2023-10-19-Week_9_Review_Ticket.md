@@ -2,7 +2,7 @@
 toc: true
 comments: false
 layout: post
-title: Week 9 Plans
+title: Review Ticket
 description: Plans for the Week!
 type: tangibles
 courses: { compsci: {week: 9} }

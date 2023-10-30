@@ -2,10 +2,10 @@
 toc: true
 comments: false
 layout: post
-title: Week 7 Plans
+title: Review Ticket
 description: Plans for the Week!
 type: tangibles
-courses: { compsci: {week: 7} }
+courses: { compsci: {week: 8} }
 ---
 
 - Created frontend and backend
