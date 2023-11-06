@@ -2,7 +2,7 @@
 toc: true
 comments: false
 layout: post
-title: explanation of frontend code
+title: frontend notes for code
 type: hacks
 courses: { compsci: {week: 11} }
 ---
