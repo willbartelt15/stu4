@@ -7,6 +7,7 @@ description: A lesson on the legal and ethical concerns of technology! By Aditi,
 type: hacks
 courses: { csp: {week: 13} }
 ---
+
 # <span style="color:cadetblue">LEGAL AND ETHICAL CONCERNS OF TECHNOLOGY</span> 
 
 ## <span style="color:pink">Ownership and Licensing:</span>
@@ -133,10 +134,14 @@ Data Privacy and Security:
 # <span style="color:cadetblue">Homework</span>
 
 1. Describe the key differences between the Creative Commons Zero v1.0 Universal, Open Source MIT License, and Open Source GPL License.
- 
+ Creative commons zero is employed for non software works. CC0 is a public domain, that allows users to use, modify, and distribute work without restrictions. Its easy to share and collaborate in a domain
+
 2. Give examples that illustrate how companies, such as Qualcomm and Red Hat, have leveraged Open Source licenses to establish unique business models.
+Qualcomm utalizes it in android and its processors. This allows qualcom to benifit from collaborative development while customizing android to help optomize performance.
+For Red Hat, they utalize red hat enterprize linux. This is a subscription based model that generates revenue. This helps developers collaborate globally 
 
 3. Why are businesses that heavily rely on Open Source software still need to generate income and how they manage this within the constraints of Open Source licenses.
+They often need to generate revenue because they are available to the public. Many buisness use subscription services or tutoring aid to help genreate a form of revenue for the company. Open source liscenses normally allow for the sale of premium versions, as long as the source code stays open.
 
 # <span style="color:cadetblue">Extra Credit</span>
 
