@@ -1,9 +1,11 @@
 ---
-title: JWT Login
+toc: true
+comments: false
 layout: post
-description: A login screen that interacts with Python and obtains a JWT  
+title: Login System
+description:
 type: hacks
-courses:  csp: {week: 18 }
+courses: { compsci: {week: 18} }
 ---
 
 <!-- 
