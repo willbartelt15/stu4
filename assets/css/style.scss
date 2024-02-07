@@ -88,3 +88,20 @@
     background-color: #e70f0f;
   }
 
+/* JWT login & signup page */
+$loginfont: 'Black Ops One', system-ui;
+$niceorange: rgba(219, 139, 18, 0.81);
+$niceblue: #1c1aad;
+
+.title {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: $niceorange;
+}
+
+.descriptiontext {
+  font-size: 40px;
+  font-family: $loginfont;
+  color: $niceorange;
+}
