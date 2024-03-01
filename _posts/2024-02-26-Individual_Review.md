@@ -70,11 +70,15 @@ My feature
     </tr>
     <tr>
       <td>Instructions for output (tactile, audible, visual, or ) based on input and program functionality</td>
-      <td><img src="https://i.postimg.cc/3wpphHt5/Screenshot-2024-02-28-3-19-01-PM.png" height=230 width=3100></td>
+      <td><img src="https://i.postimg.cc/3wpphHt5/Screenshot-2024-02-28-3-19-01-PM.png" height=230 width=3100>
+      - This function has a return moveposition which uses the array to select a random number and the ouput of the function moves the enemy to that location that has been selected by the array</td>
     </tr>
   </table>
 
+## More Commits
+
 - <img src="https://i.postimg.cc/jS1BpTwQ/Screenshot-2024-02-29-1-28-01-PM.png" height=300 width=4000> <img src="https://i.postimg.cc/brdxc72k/Screenshot-2024-02-29-1-35-07-PM.png" height=100 width=4000>
-This html code creates are original starting gamescreen as well as this sizing and boarders. Within the boxes we have two text boxes that 
+This html code creates are original starting gamescreen as well as this sizing and boarders. The first black box displays all are text about the enemy and the locations you can move or attack. The white input box is the location where you type in where you would like to move to.
+
 </body>
 </html>
