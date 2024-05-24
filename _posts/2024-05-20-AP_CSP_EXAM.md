@@ -14,7 +14,6 @@ courses: { compsci: {week: 30} }
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number Guessing Game</title>
     <style>
-        /* CSS styles */
         .container {
             text-align: center;
             margin-top: 50px;
@@ -28,29 +27,25 @@ courses: { compsci: {week: 30} }
         <input type="number" id="userGuess" placeholder="Enter your guess">
         <button onclick="checkGuess()">Guess</button>
         <p id="feedback"></p>
-        <p>Attempts left: <span id="attempts">5</span></p>
+        <p>Attempts left: <span id="attempts">8</span></p>
         <h3>Guess History:</h3>
         <ul id="guessList"></ul>
     </div>
 
 <script>
-        // JavaScript code
         let secretNumber;
-        let attemptsLeft = 5;
+        let attemptsLeft = 8;
         let guessHistory = [];
-        
-        // Original list with numbers
+
         let originalList = [10, 20, 30, 40, 50];
 
         function startGame() {
-            // Get a random number from the original list
             secretNumber = originalList[Math.floor(Math.random() * originalList.length)];
-            attemptsLeft = 5;
+            attemptsLeft = 8;
             document.getElementById("attempts").textContent = attemptsLeft;
             document.getElementById("feedback").textContent = "";
             document.getElementById("userGuess").disabled = false;
 
-            // Use the original list as the initial guess history
             guessHistory = originalList.slice();
             updateGuessHistory();
         }
@@ -88,7 +83,7 @@ courses: { compsci: {week: 30} }
 
         function updateGuessHistory() {
             let guessList = document.getElementById("guessList");
-            guessList.innerHTML = ""; // Clear previous content
+            guessList.innerHTML = "";
 
             guessHistory.forEach(function(guess) {
                 let listItem = document.createElement("li");
